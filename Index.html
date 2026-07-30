@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PHILIA — A Map of Friendship</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="sky">
+  <h1>PHILIA</h1>
+  <p>A constellation of anonymous friendships.</p>
+
+  <canvas id="stars"></canvas>
+</div>
+
+<div id="popup" class="hidden">
+  <div id="message"></div>
+  <button onclick="closePopup()">Close</button>
+</div>
+
+
+<section id="submit">
+  <h2>Add your star</h2>
+
+  <textarea id="confession"
+    placeholder="Tell me about a friendship..."></textarea>
+
+  <button onclick="addConfession()">
+    Place into the sky
+  </button>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
