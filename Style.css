@@ -1,0 +1,77 @@
+body {
+  margin:0;
+  background:#050510;
+  color:white;
+  font-family:Georgia, serif;
+  text-align:center;
+}
+
+#sky {
+  height:100vh;
+  overflow:hidden;
+  position:relative;
+}
+
+h1 {
+  padding-top:40px;
+  font-size:60px;
+  letter-spacing:15px;
+}
+
+p {
+  opacity:.7;
+}
+
+canvas {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+
+
+.star {
+  position:absolute;
+  width:8px;
+  height:8px;
+  background:white;
+  border-radius:50%;
+  cursor:pointer;
+  box-shadow:0 0 15px white;
+}
+
+
+#popup {
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#111122;
+  padding:30px;
+  border-radius:20px;
+  max-width:350px;
+}
+
+.hidden {
+  display:none;
+}
+
+
+textarea {
+  width:80%;
+  height:120px;
+  background:#111;
+  color:white;
+  border:1px solid white;
+  padding:15px;
+}
+
+
+button {
+  margin:15px;
+  padding:12px 25px;
+  border-radius:30px;
+  background:white;
+  border:none;
+  cursor:pointer;
+}
